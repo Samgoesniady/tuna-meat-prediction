@@ -312,7 +312,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
                 
-            st.image('./Asset Jurnal Q3/Resnet Training Evaluation.jpg', use_column_width=True)
+            st.image('./Asset-Jurnal-Q3/Resnet-Training-Evaluation.png', use_column_width=True)
                 
         
         elif options == "DenseNet" and options2 == "Predict Grade":
@@ -320,7 +320,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
 
-            st.image('./Asset Jurnal Q3/Densenet Training Evaluation.jpg', use_column_width=True)
+            st.image('./Asset-Jurnal-Q3/Densenet-Training-Evaluation.png', use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Grade":
@@ -328,7 +328,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
 
-            st.image('./Asset Jurnal Q3/Inception Training Evaluation.jpg', use_column_width=True)
+            st.image('./Asset-Jurnal-Q3/Inception-Training-Evaluation.png', use_column_width=True)
     
 
     with col9:
