@@ -6,5 +6,7 @@ pandas
 matplotlib
 seaborn
 tensorflow
+tensorflow_hub
 pydot
 graphviz
+tqdm
