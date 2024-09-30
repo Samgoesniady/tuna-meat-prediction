@@ -82,9 +82,9 @@ with st.sidebar.form(key='input_form'):
         else:
             st.image(uploaded_file)
 
-col4= st.columns(10)
+col3= st.columns(10)
 
-with col4:
+with col3:
     st.markdown(
         """
         <div style="color:white;
