@@ -85,8 +85,8 @@ with st.sidebar.form(key='input_form'):
 col3, col4, col5 = st.columns([1, 10, 1])
 
 
-#with col3:
-    #st.image('UNPATTI2.png', width=130)
+with col3:
+    
 
 with col4:
     st.markdown(
@@ -105,8 +105,8 @@ with col4:
         """,
         unsafe_allow_html=True
     )
-#with col5:
-    #st.image('UNPATTI.png', width=120)
+with col5:
+    
 
 try:
     col6, col7 = st.columns([20, 20])
