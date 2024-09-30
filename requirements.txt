@@ -11,4 +11,4 @@ pydot
 graphviz
 tqdm
 scikit-learn
-PIL
+Pillow
