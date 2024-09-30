@@ -12,3 +12,4 @@ graphviz
 tqdm
 scikit-learn
 Pillow
+libgl1
