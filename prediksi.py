@@ -336,7 +336,7 @@ try:
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-            image_1 = Image.open('train-eval-resnet-treat.PNG')
+            image_1 = Image.open('train-eval-resnet-treat.png')
             st.image(image_1, use_column_width=True)
                 
         
@@ -344,7 +344,7 @@ try:
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-            image_2 = Image.open('train-eval-densenet-treat.PNG')
+            image_2 = Image.open('train-eval-densenet-treat.png')
             st.image(image_2, use_column_width=True)
 
 
@@ -352,7 +352,7 @@ try:
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-            image_3 = Image.open('train-eval-inception-treat.PNG')
+            image_3 = Image.open('train-eval-inception-treat.png')
             st.image(image_3, use_column_width=True)
 
  
@@ -364,7 +364,7 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            image_4 = Image.open('heatmap-resnet.PNG')
+            image_4 = Image.open('heatmap-resnet.png')
             st.image(image_4, use_column_width=True)
             
     
@@ -372,7 +372,7 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            image_5 = Image.open('heatmap-densenet.PNG')
+            image_5 = Image.open('heatmap-densenet.png')
             st.image(image_5, use_column_width=True)
 
 
@@ -380,7 +380,7 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            image_6 = Image.open('heatmap-inception.PNG')
+            image_6 = Image.open('heatmap-inception.png')
             st.image(image_6, use_column_width=True)
 
     
@@ -390,7 +390,7 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            image_4 = Image.open('heatmap-resnet-treat.PNG')
+            image_4 = Image.open('heatmap-resnet-treat.png')
             st.image(image_4, use_column_width=True)
             
     
@@ -398,7 +398,7 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            image_5 = Image.open('heatmap-densenet-treat.PNG')
+            image_5 = Image.open('heatmap-densenet-treat.png')
             st.image(image_5, use_column_width=True)
 
 
@@ -406,7 +406,7 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            image_6 = Image.open('heatmap-inception-treat.PNG')
+            image_6 = Image.open('heatmap-inception-treat.png')
             st.image(image_6, use_column_width=True)
 
 
