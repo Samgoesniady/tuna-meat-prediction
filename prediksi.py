@@ -82,7 +82,7 @@ with st.sidebar.form(key='input_form'):
         else:
             st.image(uploaded_file)
 
-col4= st.columns([10])
+col4= st.columns(10)
 
 with col4:
     st.markdown(
