@@ -319,16 +319,16 @@ try:
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-
-            st.image('./Asset-Jurnal-Q3/Densenet-Training-Evaluation.png', use_column_width=True)
+            image_2 = Image.open('Densenet-Training-Evaluation.PNG')
+            st.image(image_2, use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Grade":
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-
-            st.image('./Asset-Jurnal-Q3/Inception-Training-Evaluation.png', use_column_width=True)
+            image_3 = Image.open('Inception-Training-Evaluation.PNG')
+            st.image(image_3, use_column_width=True)
     
 
     with col9:
@@ -336,24 +336,24 @@ try:
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-                
-            st.image('./Asset treatment/3 kelas/train eval resnet-treat-3kelas.jpg', use_column_width=True)
+            image_1 = Image.open('train-eval-resnet-treat.PNG')
+            st.image(image_1, use_column_width=True)
                 
         
         elif options == "DenseNet" and options2 == "Predict Treatment":
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-
-            st.image('./Asset treatment/3 kelas/train eval densenet-treat-3kelas.jpg', use_column_width=True)
+            image_2 = Image.open('train-eval-densenet-treat.PNG')
+            st.image(image_2, use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Treatment":
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-
-            st.image('./Asset treatment/3 kelas/train eval inception-treat-3kelas.jpg', use_column_width=True)
+            image_3 = Image.open('train-eval-inception-treat.PNG')
+            st.image(image_3, use_column_width=True)
 
  
     col10, col11 = st.columns (2)
@@ -364,24 +364,24 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            
-            st.image('./Asset Jurnal Q3/heatmap resnet.jpg', use_column_width=True)
+            image_4 = Image.open('heatmap-resnet.PNG')
+            st.image(image_4, use_column_width=True)
             
     
         elif options == "DenseNet" and options2 == "Predict Grade":
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-
-            st.image('./Asset Jurnal Q3/heatmap densenet.jpg', use_column_width=True)
+            image_5 = Image.open('heatmap-densenet.PNG')
+            st.image(image_5, use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Grade":
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-
-            st.image('./Asset Jurnal Q3/heatmap inception.jpg', use_column_width=True)
+            image_6 = Image.open('heatmap-inception.PNG')
+            st.image(image_6, use_column_width=True)
 
     
     with col10:
@@ -390,24 +390,24 @@ try:
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-            
-            st.image('./Asset treatment/3 kelas/heatmap resnet-3kelas.jpg', use_column_width=True)
+            image_4 = Image.open('heatmap-resnet-treat.PNG')
+            st.image(image_4, use_column_width=True)
             
     
         elif options == "DenseNet" and options2 == "Predict Treatment":
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-
-            st.image('./Asset treatment/3 kelas/heatmap densenet-3kelas.jpg', use_column_width=True)
+            image_5 = Image.open('heatmap-densenet-treat.PNG')
+            st.image(image_5, use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Treatment":
             st.markdown(
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
-
-            st.image('./Asset treatment/3 kelas/heatmap inception-3kelas.jpg', use_column_width=True)
+            image_6 = Image.open('heatmap-inception-treat.PNG')
+            st.image(image_6, use_column_width=True)
 
 
     with col11:
