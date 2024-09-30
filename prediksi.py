@@ -84,8 +84,6 @@ with st.sidebar.form(key='input_form'):
 
 col4= st.columns([10])
 
-
-
 with col4:
     st.markdown(
         """
@@ -103,7 +101,6 @@ with col4:
         """,
         unsafe_allow_html=True
     )
-
 
 try:
     col6, col7 = st.columns([20, 20])
