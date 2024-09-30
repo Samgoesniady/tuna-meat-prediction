@@ -450,7 +450,11 @@ try:
                     unsafe_allow_html=True)
             
             model = load_model('model-densenet-q3-1.h5')
-            
+
+            for layer in model.layers:
+                if '/' in layer.name:
+                    layer._name = layer.name.replace('/', '_')
+
             with open('./model/labels.txt', 'r') as f:
                 class_names = [a[:-1].split(' ')[1] for a in f.readlines()]
                 f.close()
@@ -547,6 +551,10 @@ try:
                     unsafe_allow_html=True)
             
             model2 = load_model('model-densenet-treat-3kelas.h5')
+
+            for layer in model2.layers:
+                if '/' in layer.name:
+                    layer._name = layer.name.replace('/', '_')
             
             with open('./model/labels2.txt', 'r') as f:
                 class_names2 = [a[:-1].split(' ')[1] for a in f.readlines()]
