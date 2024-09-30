@@ -1,0 +1,3 @@
+0 No-Treatment
+1 CO-Treatment
+2 CS-Treatment
