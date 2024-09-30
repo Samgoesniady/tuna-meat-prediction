@@ -3,6 +3,7 @@ import base64
 import streamlit as st
 from PIL import ImageOps, Image
 import numpy as np
+!pip install opencv-python
 import cv2
 
 
