@@ -85,7 +85,7 @@ with st.sidebar.form(key='input_form'):
 col3, col4, col5 = st.columns([1, 10, 1])
 
 
-with col3:
+#with col3:
     
 
 with col4:
@@ -105,7 +105,7 @@ with col4:
         """,
         unsafe_allow_html=True
     )
-with col5:
+#with col5:
     
 
 try:
