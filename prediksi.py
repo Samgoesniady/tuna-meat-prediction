@@ -311,8 +311,8 @@ try:
             st.markdown(
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
-                
-            st.image('./Asset-Jurnal-Q3/Resnet-Training-Evaluation.png', use_column_width=True)
+            image_1 = Image.open('tuna-meat-prediction/Asset-Jurnal-Q3/Resnet-Training-Evaluation.png')    
+            st.image(image_1, use_column_width=True)
                 
         
         elif options == "DenseNet" and options2 == "Predict Grade":
