@@ -82,7 +82,7 @@ with st.sidebar.form(key='input_form'):
         else:
             st.image(uploaded_file)
 
-col3, col4, col5 = st.columns([1, 10, 1])
+col4= st.columns([10])
 
 
 
@@ -610,8 +610,4 @@ try:
 
 except ValueError:
     st.error("")
-
-# License: This code is licensed under the MIT License.
-
-col12, col13, col14, col15, col16 = st.columns (5)
 
