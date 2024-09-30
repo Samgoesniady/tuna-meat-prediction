@@ -423,7 +423,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Image Prediction</div>''', 
                     unsafe_allow_html=True)
             
-            model = load_model('./model/model-resnet-q3-1.h5')
+            model = load_model('model-resnet-q3-1.h5')
 
             with open('./model/labels.txt', 'r') as f:
                 class_names = [a[:-1].split(' ')[1] for a in f.readlines()]
@@ -455,7 +455,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Image Prediction</div>''', 
                     unsafe_allow_html=True)
             
-            model = load_model('./model/model-densenet-q3-1.h5')
+            model = load_model('model-densenet-q3-1.h5')
             
             with open('./model/labels.txt', 'r') as f:
                 class_names = [a[:-1].split(' ')[1] for a in f.readlines()]
@@ -486,7 +486,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Image Prediction</div>''', 
                     unsafe_allow_html=True)
             
-            model = load_model('./model/model-inception-q3-1.h5')
+            model = load_model('model-inception-q3-1.h5')
         
             with open('./model/labels.txt', 'r') as f:
                     class_names = [a[:-1].split(' ')[1] for a in f.readlines()]
@@ -520,7 +520,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Image Prediction</div>''', 
                     unsafe_allow_html=True)
             
-            model2 = load_model('./model/model-resnet-treat-3kelas.h5')
+            model2 = load_model('model-resnet-treat-3kelas.h5')
             
             with open('./model/labels2.txt', 'r') as f:
                 class_names2 = [a[:-1].split(' ')[1] for a in f.readlines()]
@@ -552,7 +552,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Image Prediction</div>''', 
                     unsafe_allow_html=True)
             
-            model2 = load_model('./model/model-densenet-treat-3kelas.h5')
+            model2 = load_model('model-densenet-treat-3kelas.h5')
             
             with open('./model/labels2.txt', 'r') as f:
                 class_names2 = [a[:-1].split(' ')[1] for a in f.readlines()]
@@ -583,7 +583,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Image Prediction</div>''', 
                     unsafe_allow_html=True)
             
-            model2 = load_model('./model/model-inception-treat-3kelas.h5')
+            model2 = load_model('model-inception-treat-3kelas.h5')
         
                 
             with open('./model/labels2.txt', 'r') as f:
