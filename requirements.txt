@@ -11,3 +11,4 @@ graphviz
 tqdm
 scikit-learn
 Pillow
+opencv-python
