@@ -320,7 +320,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
 
-            st.image('./Asset Jurnal Q3/Densenet Training Evaluation.png', use_column_width=True)
+            st.image('./Asset Jurnal Q3/Densenet Training Evaluation.jpg', use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Grade":
@@ -328,7 +328,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
 
-            st.image('./Asset Jurnal Q3/Inception Training Evaluation.png', use_column_width=True)
+            st.image('./Asset Jurnal Q3/Inception Training Evaluation.jpg', use_column_width=True)
     
 
     with col9:
@@ -337,7 +337,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
                 
-            st.image('./Asset treatment/3 kelas/train eval resnet-treat-3kelas.png', use_column_width=True)
+            st.image('./Asset treatment/3 kelas/train eval resnet-treat-3kelas.jpg', use_column_width=True)
                 
         
         elif options == "DenseNet" and options2 == "Predict Treatment":
@@ -345,7 +345,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
 
-            st.image('./Asset treatment/3 kelas/train eval densenet-treat-3kelas.png', use_column_width=True)
+            st.image('./Asset treatment/3 kelas/train eval densenet-treat-3kelas.jpg', use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Treatment":
@@ -353,7 +353,7 @@ try:
                 '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Training Evaluation</div>''', 
                 unsafe_allow_html=True)
 
-            st.image('./Asset treatment/3 kelas/train eval inception-treat-3kelas.png', use_column_width=True)
+            st.image('./Asset treatment/3 kelas/train eval inception-treat-3kelas.jpg', use_column_width=True)
 
  
     col10, col11 = st.columns (2)
@@ -365,7 +365,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
             
-            st.image('./Asset Jurnal Q3/heatmap resnet.png', use_column_width=True)
+            st.image('./Asset Jurnal Q3/heatmap resnet.jpg', use_column_width=True)
             
     
         elif options == "DenseNet" and options2 == "Predict Grade":
@@ -373,7 +373,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
 
-            st.image('./Asset Jurnal Q3/heatmap densenet.png', use_column_width=True)
+            st.image('./Asset Jurnal Q3/heatmap densenet.jpg', use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Grade":
@@ -381,7 +381,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
 
-            st.image('./Asset Jurnal Q3/heatmap inception.png', use_column_width=True)
+            st.image('./Asset Jurnal Q3/heatmap inception.jpg', use_column_width=True)
 
     
     with col10:
@@ -391,7 +391,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
             
-            st.image('./Asset treatment/3 kelas/heatmap resnet-3kelas.png', use_column_width=True)
+            st.image('./Asset treatment/3 kelas/heatmap resnet-3kelas.jpg', use_column_width=True)
             
     
         elif options == "DenseNet" and options2 == "Predict Treatment":
@@ -399,7 +399,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
 
-            st.image('./Asset treatment/3 kelas/heatmap densenet-3kelas.png', use_column_width=True)
+            st.image('./Asset treatment/3 kelas/heatmap densenet-3kelas.jpg', use_column_width=True)
 
 
         elif options == "InceptionV3" and options2 == "Predict Treatment":
@@ -407,7 +407,7 @@ try:
                     '''<div style="padding:20px;color:white;margin:0;font-size:150%;text-align:center;display:fill;border-radius:5px;background-color:#03648a;overflow:hidden;font-weight:800">Confusion Matrix</div>''', 
                     unsafe_allow_html=True)
 
-            st.image('./Asset treatment/3 kelas/heatmap inception-3kelas.png', use_column_width=True)
+            st.image('./Asset treatment/3 kelas/heatmap inception-3kelas.jpg', use_column_width=True)
 
 
     with col11:
