@@ -4,4 +4,11 @@ opencv-python-headless
 numpy
 pandas
 matplotlib
-
+seaborn
+tensorflow
+pydot
+graphviz
+tqdm
+PIL
+sklearn
+io
