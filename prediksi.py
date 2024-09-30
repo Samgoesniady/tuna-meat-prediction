@@ -85,9 +85,6 @@ with st.sidebar.form(key='input_form'):
 col3, col4, col5 = st.columns([1, 10, 1])
 
 
-with col3:
-    image-a = Image.open('UNPATTI2.jpg')
-    st.image(image-a, width=130)
 
 with col4:
     st.markdown(
@@ -106,9 +103,7 @@ with col4:
         """,
         unsafe_allow_html=True
     )
-with col5:
-    image-b = Image.open('UNPATTI.jpg')
-    st.image(image-b, width=130)
+
 
 try:
     col6, col7 = st.columns([20, 20])
@@ -620,6 +615,3 @@ except ValueError:
 
 col12, col13, col14, col15, col16 = st.columns (5)
 
-with col13:
-    image-c = Image.open('lisensi.jpg')
-    st.image(image-c,width=900)
